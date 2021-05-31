@@ -1,0 +1,21 @@
+
+.app_wripper {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+            "h h"
+            "n c";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+}
+
+.app_wripper_content {
+    grid-area: c;
+    background-color: #1f3680;
+    display: grid;
+    grid-gap: 10px;
+padding-top: 15px;
+}

@@ -1,0 +1,30 @@
+.paginator {
+  margin: 0 auto;
+  max-width: 50%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.paginator span {
+  margin: 2px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+
+}
+.selectedPage {
+  font-weight: bold;
+  color: red;
+}
+.paginator button {
+  background-color: #1f3680;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  outline: none;
+}
+.paginator button:hover {
+  color: pink;
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}

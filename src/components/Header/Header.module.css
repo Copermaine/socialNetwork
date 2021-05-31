@@ -1,0 +1,29 @@
+.header {
+    grid-area: h;
+    background-color: #1f3680;
+    /*border: 1px solid black;
+    border-radius: 5px;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img {
+    width: 70px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+.headerName {
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+.loginBlock a {
+    color: white;
+    text-decoration: none;
+}
+.loginBlock a:hover {
+    color: black;
+}

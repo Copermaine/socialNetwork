@@ -1,0 +1,10 @@
+.my_Posts_block {
+    padding: 10px;
+}
+
+.my_Posts_block textarea, button {
+    display: block;
+}
+.my_Posts_block h3 {
+    margin-bottom: 0;
+}
